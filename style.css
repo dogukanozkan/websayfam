@@ -1,5 +1,25 @@
-.baslik{
-	margin: 1800 auto;
-	border-radius: 5px;
-	padding: 30px;
+.altkisim 
+{ 
+	height: 500x; 
+	width: 1280px; 
+}
+.asagisol 
+{ 
+	border-radius: 30px;
+	margin-top: 5px;
+	height: 480px;  
+	width: 640px; 
+	float:left;
+	background-color: #FFB6C1;
+
+}
+.asagisag 
+{ 
+	border-radius: 30px;
+	margin-top: 5px;
+   	height: 480px;
+  	width: 640px;
+    float:right;
+    background-color: #FFB6C1;
+
 }
