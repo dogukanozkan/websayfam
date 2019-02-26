@@ -1,0 +1,53 @@
+.altkisim 
+{ 
+	height: 500x; 
+	width: 1280px; 
+}
+.asagisol 
+{ 
+	border-radius: 30px;
+	margin-top: 5px;
+	height: 500px;  
+	width: 640px; 
+	float:left;
+	background-image: arkaplan;
+
+}
+.asagisag 
+{ 
+	border-radius: 50px;
+	margin-top: 5px;
+   	height: 500px;
+  	width: 640px;
+    float:right;
+    background-image: arkaplan;
+
+}
+.paragraf1
+{
+	width: 1400px;
+	height: 100px;
+	text-align: center;
+	background-color: #fbf3f3;
+	background-image:url(resim/arkaplan2.jpg);
+	border-radius: 20px;
+}
+.paragraf2
+{
+	width: 1300px;
+	height: 170px;
+	text-align: center;
+	background-image:url(resim/arkaplan2.jpg);
+	border-radius: 20px;
+	
+}
+.paragraf3
+{
+	width: 1150px;
+	height: 200px;
+	text-align: center;
+	background-color: white;
+	background-image:url(resim/arkaplan2.jpg);
+	border-radius: 20px;
+
+}
