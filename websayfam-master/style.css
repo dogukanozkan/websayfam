@@ -1,3 +1,5 @@
+body {cursor: url('rainbow.png'), default;}
+
 .altkisim 
 { 
 	height: 500x; 
@@ -30,6 +32,8 @@
 	text-align: center;
 	border-radius: 20px;
   margin: 15px;
+  font-family: monospace;
+  font-weight: bold;
 
 }
 .paragraf2
@@ -39,6 +43,8 @@
 	text-align: center;
 	border-radius: 20px;
   margin: 15px;
+  font-family: monospace;
+  font-weight: bold;
 	
 }
 .paragraf3
@@ -48,12 +54,15 @@
 	text-align: center;
 	border-radius: 20px;
   margin: 15px;
+  font-family: monospace;
+  font-weight: bold;
 
 }
   .sayfa
 {
     width: 700px;
     margin: 0 auto;
+
 }
 .sliderKonum
 {
@@ -149,4 +158,8 @@
     text-align: justify;
     margin: 25px;
     padding: 10px;
+}
+.program1
+{
+  float:left;
 }
