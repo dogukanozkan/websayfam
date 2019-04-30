@@ -267,3 +267,38 @@ border-radius: 36px;
 {
   float: right;
 }
+.balls{
+    width:250px;
+    margin:0 auto;
+}
+.top {
+    width:400px;
+    height:400px;
+    border-radius:50%;
+    background-color:#ef8585;
+    display:inline-block;
+    position: relative;
+    -webkit-animation: ball 2s infinite alternate forwards; 
+    animation: ball 2s infinite alternate forwards;
+}
+.ball1{-webkit-animation-timing-function: cubic-bezier(0,0,1,1); }
+.ball2{-webkit-animation-timing-function: cubic-bezier(0.25,0.1,0.25,1); background-color:#85efee;}
+.ball3 {-webkit-animation-timing-function: cubic-bezier(0.42,0,1,1);
+background-color:#b4ef85;}
+.ball4 {-webkit-animation-timing-function: cubic-bezier(0,0,0.58,1); background-color:#f0ec7f;}
+
+/* Standard syntax */
+.ball1{animation-timing-function: cubic-bezier(0,0,1,1);}
+.ball2 {animation-timing-function: cubic-bezier(0.25,0.1,0.25,1);}
+.ball3{animation-timing-function: cubic-bezier(0.42,0,1,1);}
+.ball4 {animation-timing-function: cubic-bezier(0,0,0.58,1);}
+
+@-webkit-keyframes ball {
+    from {top: 0px;}
+    to {top: 350px;}
+}
+
+@keyframes ball {
+    from {top: 0px;}
+    to {top: 350px;}
+}
